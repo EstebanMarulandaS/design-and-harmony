@@ -1,0 +1,12 @@
+
+    @mixin animation {
+    a:hover{
+        transform: scale(1.1);
+        box-shadow: 1px 1px $main_gray;
+    };
+    
+    a:active{
+        transform: scale(1.2);
+        box-shadow: 1px 1px $main_gray;
+    }
+}

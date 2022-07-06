@@ -1,0 +1,11 @@
+@mixin aboutUsStyle {
+    p{
+        font-size: $p_fontsize;     
+    }
+    img{
+        width: 450px;
+        height: 450px;
+        
+    }
+    
+}

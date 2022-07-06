@@ -1,0 +1,50 @@
+@mixin  info_div_style {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+@mixin h2_portfolio {
+    background-color: #f4f4f4;
+    text-align: center;
+    height: fit-content;
+}
+
+@mixin location_div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+    height: fit-content;
+    align-items: baseline;
+    font-size: $p_fontsize;
+}
+
+@mixin  service_div {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+    height: fit-content;
+    align-items: baseline;
+    font-size: $p_fontsize;
+}
+
+@mixin project_info_div {
+    font-size: $p_fontsize;
+    margin-left: 100px;
+}
+
+@mixin design_main_img {
+    width: 90%;
+    margin-left: 100px;
+    width: 550px;
+    height: fit-content;
+}
+
+/* to_the_top_btn */
+
