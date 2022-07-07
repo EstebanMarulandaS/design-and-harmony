@@ -84,7 +84,8 @@ main div.carousel-inner {
 
 .lets_talk_btn {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .our_services_div {
@@ -92,6 +93,17 @@ main div.carousel-inner {
   padding: 50px;
   font-size: 20px;
   font-weight: 500;
+}
+
+.portfolio_row {
+  background-color: rgb(245, 245, 245);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.our_story_row {
+  margin-bottom: 100px;
+  margin-top: 40px;
 }
 
 .see_work_btn {
@@ -539,10 +551,6 @@ footer a:active {
     background-color: rgb(245, 245, 245);
   }
 
-  .information_container {
-    font-size: 20px;
-    padding: 5px;
-  }
   .information_container img {
     width: 350px;
     height: 250px;
@@ -557,6 +565,19 @@ footer a:active {
   .text_portfolio {
     margin-top: 50px;
   }
-}
-/* Responsive-design-Iphones about us*/
-/* who we are *//*# sourceMappingURL=style.css.map */
+
+  /* Responsive-design-Iphones about us*/
+  #nate_img {
+    width: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 450px;
+  }
+
+  .p_joanna_story_div img {
+    margin-left: 1px;
+    margin-top: -80px;
+    width: 300px;
+    height: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */
