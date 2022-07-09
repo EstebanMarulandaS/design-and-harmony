@@ -221,6 +221,12 @@ footer{
 }
 
 /* Portfolio styling */
+.cards_pack{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
 #portfolio_top_img{
     @include headerImgTop;
 }
@@ -234,6 +240,7 @@ footer{
 .cards_row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 5px;
    
 }
 .individual_card_div{
@@ -486,6 +493,72 @@ footer{
        width: 300px;
        height: 300px;
     }
+    /* portfolio responsive styling */
+    .cards_pack{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-left: -95px;
+    }
+
+    .individual_card_div{
+        width: fit-content;
+        height: fit-content;
+
+        
+    }
+
+    .luxurious_design_info{
+        display: flex;
+        flex-direction: column;
+        margin-left: -85px;
+        img{
+            width: 370px;
+            height: 350px;
+        }
+        h2{
+            margin-left: 50px;
+        }
+        .luxurious_design_main_img{
+            width: 370px;
+            
+        }
+    }
+    .new_classic_design_info{
+    display: flex;
+        flex-direction: column;
+        margin-left: -85px;
+        img{
+            width: 370px;
+            height: 350px;
+        }
+        h2{
+            margin-left: 50px;
+        }
+        .new_classic_design_main_img{
+            width: 370px;
+            
+        }
+}
+    .new_minimal_design_info{
+        display: flex;
+        flex-direction: column;
+        margin-left: -85px;
+        img{
+            width: 370px;
+            height: 350px;
+        }
+        h2{
+            margin-left: 50px;
+        }
+        .new_minimal_design_main_img{
+            width: 370px;
+            
+        }
+    }
+
    
 }
 
