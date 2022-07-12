@@ -516,7 +516,7 @@ footer a:active {
 }
 
 /* Responsive-design-Iphones index*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .description_div P {
     font-size: 20px;
   }
