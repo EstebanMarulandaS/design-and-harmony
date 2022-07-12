@@ -727,20 +727,11 @@ footer a:active {
 
   .background_color_first_row {
     margin-left: -20px;
-    padding: -1px;
   }
 
   .services_img {
     width: 350px;
     height: 250px;
     margin-left: -20px;
-  }
-  .services_img img {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
 }/*# sourceMappingURL=style.css.map */
