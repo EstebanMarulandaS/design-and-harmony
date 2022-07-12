@@ -575,17 +575,41 @@ footer a:active {
 
   /* Responsive-design-Iphones about us*/
   #nate_img {
-    width: 450px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -o-object-fit: fill;
+       object-fit: fill;
     height: 450px;
   }
 
+  .nate_img_container {
+    width: 100%;
+  }
+
+  .p_nate_story_div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .p_joanna_story_div {
+    width: 100%;
+  }
+
   .p_joanna_story_div img {
-    margin-left: 1px;
-    margin-top: -80px;
-    width: 300px;
-    height: 300px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -o-object-fit: fill;
+       object-fit: fill;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-left: -80px;
+    margin-bottom: -20px;
+    margin-top: -100px;
+    padding: 5px;
   }
 
   /* portfolio responsive styling */
