@@ -523,13 +523,32 @@ footer a:active {
   }
 
   .description_div P {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .lets_talk_btn {
     width: 150px;
     margin-left: 50px;
     margin-bottom: 55px;
+  }
+
+  #first_our_services_div {
+    width: 100%;
+  }
+  #first_our_services_div p {
+    font-size: 18px;
+  }
+  #first_our_services_div ul {
+    font-size: 18px;
+  }
+
+  #first_info_container {
+    width: 100%;
+  }
+
+  #sample_img_5 {
+    width: 350px;
+    height: 350px;
   }
 
   .welcome_div {
@@ -569,6 +588,9 @@ footer a:active {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .information_container p {
+    font-size: 18px;
+  }
 
   .portfolio_row {
     justify-content: baseline;
@@ -576,9 +598,14 @@ footer a:active {
 
   .text_portfolio {
     margin-top: 50px;
+    font-size: 18px;
   }
 
   /* Responsive-design-Iphones about us*/
+  .bg_color_our_people {
+    width: 100%;
+  }
+
   #nate_img {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -600,6 +627,7 @@ footer a:active {
 
   .p_joanna_story_div {
     width: 350px;
+    padding: 0;
   }
 
   .p_joanna_story_div img {

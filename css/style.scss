@@ -432,7 +432,7 @@ footer{
     .description_div{
         
         P{
-            font-size: 19px;
+            font-size: 18px;
         }
     }
 
@@ -441,7 +441,23 @@ footer{
         margin-left: 50px;
         margin-bottom: 55px;
     }
-
+    #first_our_services_div{
+        width: 100%;
+        p{
+            font-size: 18px;
+        }
+        ul{
+            font-size: 18px;
+        }
+    }
+    
+    #first_info_container{
+        width: 100%;
+    }
+    #sample_img_5{
+        width: 350px;
+        height: 350px;
+    }
     .welcome_div{
         position: absolute;
         bottom: 0;
@@ -473,16 +489,25 @@ footer{
             margin-top: 50px;
             margin-bottom: 50px;
         }
+        p{
+            font-size: 18px;
+        }
     
     }
     .portfolio_row{
         justify-content:baseline;
+        
     }
     .text_portfolio{
         margin-top: 50px;
+        font-size: 18px;
+       
     }
     /* Responsive-design-Iphones about us*/
 
+    .bg_color_our_people{
+        width: 100%;
+    }
     #nate_img{
         width: fit-content;
         object-fit: fill;
@@ -497,6 +522,7 @@ footer{
     }
     .p_joanna_story_div{
         width: 350px;
+        padding: 0;
     }
     .p_joanna_story_div img{
         width: 350px;
